@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#main{
+    height: 94%;
+    width: 100%;
+    background-image: url('https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+}
+
+#nav{
+    top:0;
+    position:fixed;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.823);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+#nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 350;
+}
+
+#nav i{
+    color: rgba(20, 20, 20, 0.866);
+    font-size: 1.5rem;
+}
+
+#hero{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#hero h1{
+    font-size: 4rem;
+    font-weight: 600;
+    
+}
+
+#hero h4{
+    padding-top: 0px;
+    font-size: 2rem;
+    font-weight: 470;
+}
+
+#links button{
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 15px 8px;
+}
+
+#learn{
+    background-color: #0071E3;
+    border: none;
+    color: rgb(247, 246, 246);
+}
+
+#buy{
+    background-color: transparent;
+    color: #2997ff;
+    border: 1px solid #0071E3;
+}
+
+#main2{
+    height: 94%;
+    width: 100%;
+    background-image: url('https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_large.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    margin: 15px;
+}
+
+
+#hero2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
+}
+
+#hero2 h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    
+}
+
+#hero2 h4{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#links2 button{
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 15px 8px;
+}
+
+#learn2{
+    background-color: #0071E3;
+    border: none;
+    color: rgb(247, 246, 246);
+}
+
+#buy2{
+    background-color: transparent;
+    color: #2997ff;
+    border: 1px solid #0071E3;
+}
+#main3{
+    height: 94%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+#hero3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url('https://www.apple.com/v/home/ch/images/promos/iphone-17/promo_iphone_17__bhofuohbsu3m_large.jpg');
+    background-size: cover;
+    background-position: center;
+    width:49%;
+    margin: 0px 7.5px;
+    height:80%;
+   
+}
+
+#hero3 h1{
+    font-size: 3rem;
+    font-weight: 550;
+    margin-top: 65px;
+    
+}
+
+#hero3 h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    
+}
+
+#links3 button{
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 15px 8px;
+}
+
+#learn3{
+    background-color: #0071E3;
+    border: none;
+    color: rgb(247, 246, 246);
+}
+
+#buy3{
+    background-color: transparent;
+    color: #2997ff;
+    border: 1px solid #0071E3;
+}
+
+
+#hero4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url('https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large.jpg');
+    background-size: cover;
+    background-position: center;
+    height:80%;
+    width:49%;
+    margin: 0px 7.5px;
+   
+}
+
+#hero4 h1{
+    font-size: 3rem;
+    font-weight: 550;
+    margin-top: 65px;
+    
+}
+
+#hero4 h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#links4 button{
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 15px 8px;
+}
+
+#learn4{
+    background-color: #0071E3;
+    border: none;
+    color: rgb(247, 246, 246);
+}
+
+#buy4{
+    background-color: transparent;
+    color: #2997ff;
+    border: 1px solid #0071E3;
+}
